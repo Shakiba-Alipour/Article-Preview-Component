@@ -96,6 +96,7 @@ footer {
 .share {
   width: 1rem;
   height: 1rem;
+  cursor: pointer;
 }
 
 #inactive-footer {
@@ -129,9 +130,15 @@ footer {
   }
 
   .share {
-    background-color: var(--Desaturated-Dark-Blue);
+    /* background-color: var(--Desaturated-Dark-Blue); */
     padding: 0.5rem;
     border-radius: 50%;
+    /* fill: white;
+    color: white; */
+  }
+
+  .share img {
+    filter: brightness(0) invert(1);
   }
 }
 
